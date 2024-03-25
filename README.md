@@ -4,12 +4,7 @@
 <a href="https://black.readthedocs.io/en/stable/"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-black.svg?style=for-the-badge&labelColor=gray"></a>
 
 Inference code for AudioSeal, a method for speech localized watermarking, with state-of-the-art robustness and detector speed (training code coming soon).
-More details can be found in the [paper](https://arxiv.org/abs/2401.17264).
-
-[[`arXiv`](https://arxiv.org/abs/2401.17264)]
-[[`Colab notebook`](https://colab.research.google.com/github/facebookresearch/audioseal/blob/master/examples/colab.ipynb)]
-
-![fig](https://github.com/facebookresearch/audioseal/assets/1453243/5d8cd96f-47b5-4c34-a3fa-7af386ed59f2)
+More details can be found in the paper.
 
 # Abtract
 
@@ -28,7 +23,7 @@ pip install audioseal
 To install from source: Clone this repo and install in editable mode:
 
 ```
-git clone https://github.com/facebookresearch/audioseal
+git clone https://github.com/xxxxxxxx/audioseal
 cd audioseal
 pip install -e .
 ```
@@ -117,22 +112,3 @@ torchaudio does not handle the default backend well. Either downgrade your torch
 
 - The code in this repository is released under the MIT license as found in the [LICENSE file](LICENSE).
 - The models weights in this repository are released under the CC-BY-NC 4.0 license as found in the [LICENSE_weights file](LICENSE_weights).
-
-# Maintainers:
-- [Tuan Tran](https://github.com/antoine-tran)
-- [Hady Elsahar](https://github.com/hadyelsahar)
-- [Pierre Fernandez](https://github.com/pierrefdz)
-- [Robin San Roman](https://github.com/robinsrm)
-
-# Citation
-
-If you find this repository useful, please consider giving a star :star: and please cite as:
-
-```
-@article{sanroman2024proactive,
-  title={Proactive Detection of Voice Cloning with Localized Watermarking},
-  author={San Roman, Robin and Fernandez, Pierre and Elsahar, Hady and D´efossez, Alexandre and Furon, Teddy and Tran, Tuan},
-  journal={arXiv preprint},
-  year={2024}
-}
-```

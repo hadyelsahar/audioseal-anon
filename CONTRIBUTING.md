@@ -12,7 +12,7 @@ keep the constraints on PyTorch as lenient as possible. Please keep both the tex
 third-party library requirements.
 
 ```sh
-git clone https://github.com/facebookresearch/audioseal.git
+git clone https://github.com/xxxxxxxx/audioseal.git
 ```
 
 And, install the package in editable mode with development tools before contributing:
