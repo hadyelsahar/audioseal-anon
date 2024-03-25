@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "audioseal"
 readme = "README.md"
-authors = [{name = "Facebook AI Research"}]
+authors = [{name = "xxxxx"}]
 requires-python = ">=3.8"
 dynamic = ["version", "description"]
 
